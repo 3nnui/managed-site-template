@@ -8,7 +8,8 @@
     "arnoson/kirby-vite": "^3.0.0",
     "fabianmichael/kirby-markdown-field": "^2.1",
     "microman/kirby-column-blocks": "^1.0",
-    "jg/kirby-fields-block": "^1.2"
+    "jg/kirby-fields-block": "^1.2",
+    "oblik/kirby-link-field": "^5.2"
   },
   "config": {
     "allow-plugins": {
