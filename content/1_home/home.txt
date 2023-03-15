@@ -2,7 +2,7 @@ Title: Home
 
 ----
 
-Content: 
+Content: [{"content":{"mailview":null,"formfields":"[{\"content\":{\"label\":\"Name\",\"slug\":\"name\",\"autofill\":\"name\",\"required\":\"true\",\"required_fail\":\"\",\"inputtype\":\"text\",\"placeholder\":\"\",\"default\":\"\",\"validate\":[]},\"id\":\"6cf9a833-2a0c-463b-8ec2-111bcbf8b875\",\"isHidden\":false,\"type\":\"formfields_01_input\"},{\"content\":{\"label\":\"Email\",\"slug\":\"email\",\"autofill\":\"email\",\"required\":\"true\",\"required_fail\":\"\",\"inputtype\":\"email\",\"placeholder\":\"\",\"default\":\"\",\"validate\":[{\"validate\":\"email\",\"match\":\"\",\"minlength\":null,\"maxlength\":null,\"min\":null,\"max\":null,\"msg\":\"\"}]},\"id\":\"05479bab-9dda-4c3b-916f-3cddb96cea7f\",\"isHidden\":false,\"type\":\"formfields_01_input\"}]","name":"Formular","enable_notify":"false","notify_email":"","notify_subject":"","notify_body":"","enable_confirm":"false","confirm_email":"","confirm_subject":"","confirm_body":"","redirect":"false","success_message":"","success_url":[]},"id":"aaf7f7da-be04-4b2f-b402-8e25829b73bc","isHidden":false,"type":"form"}]
 
 ----
 

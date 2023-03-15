@@ -46,3 +46,4 @@ fieldsets:
                   text:
                     width: 2/3
                   hash: false
+      - form

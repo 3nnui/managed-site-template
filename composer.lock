@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "340f44c8d4257e74f9bbb7caaaa02760",
+    "content-hash": "416befdc2b97b0fdc8c828c4968ed6d3",
     "packages": [
         {
             "name": "arnoson/kirby-vite",
@@ -813,6 +813,41 @@
                 "source": "https://github.com/youngcut/kirby-column-blocks/tree/1.0.2"
             },
             "time": "2023-01-28T21:24:44+00:00"
+        },
+        {
+            "name": "microman/kirby-form-block-suite",
+            "version": "3.4.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/youngcut/kirby-form-block-suite.git",
+                "reference": "b95f622516a8dca8d55597ad26bfedab50dcc3aa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/youngcut/kirby-form-block-suite/zipball/b95f622516a8dca8d55597ad26bfedab50dcc3aa",
+                "reference": "b95f622516a8dca8d55597ad26bfedab50dcc3aa",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.2"
+            },
+            "type": "kirby-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Gsponer",
+                    "email": "kirby@microman.ch"
+                }
+            ],
+            "description": "Contactform based on Kirby blocks. ",
+            "support": {
+                "issues": "https://github.com/youngcut/kirby-form-block-suite/issues",
+                "source": "https://github.com/youngcut/kirby-form-block-suite/tree/v3.4.5"
+            },
+            "time": "2023-03-09T13:21:57+00:00"
         },
         {
             "name": "oblik/kirby-link-field",
