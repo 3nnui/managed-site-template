@@ -1,0 +1,10 @@
+title: site
+
+tabs:
+  content:
+      label: Content
+      icon: text
+      fields:
+        pages: children
+          label: Pages
+  seotab: seo

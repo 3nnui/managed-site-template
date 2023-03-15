@@ -12,6 +12,9 @@
   <?= vite()->css() ?>
   <!-- ... and the template's css (if it exists) -->
   <?php e($entryFile, vite()->css($entryFile)) ?>
+
+  <?php snippet('meta_information'); ?>
+  <?php snippet('robots'); ?>
 </head>
 
 <body>
