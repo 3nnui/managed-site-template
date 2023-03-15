@@ -1,1 +1,9 @@
 Title: Home
+
+----
+
+Text: This is a template!
+
+----
+
+Uuid: lnOLbCWG1cYxdo8l

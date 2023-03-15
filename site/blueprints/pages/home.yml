@@ -1,0 +1,5 @@
+title: home
+fields:
+  text:
+    type: writer
+    inline: true
