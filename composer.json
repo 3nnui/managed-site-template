@@ -10,7 +10,8 @@
     "microman/kirby-column-blocks": "^1.0",
     "jg/kirby-fields-block": "^1.2",
     "oblik/kirby-link-field": "^5.2",
-    "diesdasdigital/kirby-meta-knight": "^1.2"
+    "diesdasdigital/kirby-meta-knight": "^1.2",
+    "bnomei/kirby3-security-headers": "^2.5"
   },
   "config": {
     "allow-plugins": {
