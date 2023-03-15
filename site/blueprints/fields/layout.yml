@@ -1,0 +1,26 @@
+label: Content
+type: blocks
+fieldsets:
+      columns:
+        extends: blocks/columns
+        fields:
+          layout:
+            layouts:
+              - "1/2, 1/2"
+            fieldsets:
+              - heading
+              - text
+              - gallery
+      - heading
+      - text
+      highlight:
+        icon: star
+        name: Highlight
+        label: false
+        preview: fields
+        wysiwyg: true
+        fields:
+          text:
+            label: Highlight
+            type: writer
+      - gallery

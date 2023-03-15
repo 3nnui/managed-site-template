@@ -2,7 +2,11 @@ Title: Home
 
 ----
 
-Text: This is a template!
+Content: 
+
+----
+
+Text: # This is a template!
 
 ----
 
