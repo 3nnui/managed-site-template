@@ -5,19 +5,27 @@
 @tailwind utilities;
 
 @layer base {
-    h1 {
-      @apply text-3xl;
-    }
-    h2 {
-      @apply text-2xl;
-    }
-    h3 {
-      @apply text-xl;
-    }
-    p {
-      @apply text-base;
-    }
-    h5 {
-      @apply text-sm;
-    }
+  /* layout */
+  main {
+    @apply container;
+    @apply md:mx-auto;
+    @apply px-2;
   }
+
+  /* fonts */
+  h1 {
+    @apply text-3xl;
+  }
+  h2 {
+    @apply text-2xl;
+  }
+  h3 {
+    @apply text-xl;
+  }
+  p {
+    @apply text-base;
+  }
+  h5 {
+    @apply text-sm;
+  }
+}
