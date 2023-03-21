@@ -1,3 +1,6 @@
 <?php snippet('header', ['entry' => 'home']); ?>
-<h1><?= $page->title() ?></h1>
+<main>
+  <h1><?= $site->title() ?></h1>
+  <p><?= $page->layout()->toBlocks() ?></p>
+</main>
 <?php snippet('footer', ['entry' => 'home']); ?>

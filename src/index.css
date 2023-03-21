@@ -4,20 +4,28 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Compagnon Script by Chloé Lozano (http://www.velvetyne.fr/fonts/compagnon/) */
-@font-face {
-  font-family: Compagnon;
-  font-style: bold;
-  src: url('assets/Compagnon-Bold.woff2');
-}
+@layer base {
+  /* layout */
+  main {
+    @apply container;
+    @apply md:mx-auto;
+    @apply px-2;
+  }
 
-body {
-  margin: 1em;
-  font-family: Compagnon;
-  font-weight: bold;
-  background-color: yellow;
-}
-
-nav ul {
-  margin-top: 0;
+  /* fonts */
+  h1 {
+    @apply text-3xl;
+  }
+  h2 {
+    @apply text-2xl;
+  }
+  h3 {
+    @apply text-xl;
+  }
+  p {
+    @apply text-base;
+  }
+  h5 {
+    @apply text-sm;
+  }
 }

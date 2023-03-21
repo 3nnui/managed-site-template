@@ -1,0 +1,19 @@
+label: Content
+type: blocks
+fieldsets:
+      columns:
+        extends: blocks/columns
+        fields:
+          layout:
+            layouts:
+              - "1/2, 1/2"
+            fieldsets:
+              - heading
+              - text
+              - gallery
+      - heading
+      - text
+      - gallery
+      - form
+      - highlight
+      - linklist

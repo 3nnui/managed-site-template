@@ -5,7 +5,14 @@
   "license": "MIT",
   "require": {
     "getkirby/cms": "^3.6",
-    "arnoson/kirby-vite": "^3.0.0"
+    "arnoson/kirby-vite": "^3.0.0",
+    "fabianmichael/kirby-markdown-field": "^2.1",
+    "microman/kirby-column-blocks": "^1.0",
+    "jg/kirby-fields-block": "^1.2",
+    "oblik/kirby-link-field": "^5.2",
+    "diesdasdigital/kirby-meta-knight": "^1.2",
+    "bnomei/kirby3-security-headers": "^2.5",
+    "microman/kirby-form-block-suite": "^3.4"
   },
   "config": {
     "allow-plugins": {

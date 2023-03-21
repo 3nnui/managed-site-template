@@ -1,0 +1,9 @@
+name: Highlight
+icon: star
+preview: fields
+label: false
+wysiwyg: true
+fields:
+  text:
+    label: Highlight
+    type: writer
