@@ -3,6 +3,7 @@ module.exports = {
   content: [
     "site/snippets/**/*.php",
     "site/templates/**/*.php",
+    "site/plugins/custom/**/*.php",
   ],
   theme: {
     fontSize: {
