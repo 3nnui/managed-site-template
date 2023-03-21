@@ -1,6 +1,7 @@
 /* Shared CSS for all pages */
 
 @import url("blocks/highlight.css");
+@import url("blocks/gallery.css");
 
 @tailwind base;
 @tailwind components;
