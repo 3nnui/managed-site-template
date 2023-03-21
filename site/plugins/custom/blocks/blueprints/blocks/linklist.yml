@@ -1,0 +1,18 @@
+extends: blocks/table
+name: Linklist
+preview: fields
+fields:
+  rows:
+    label: Linklist
+    type: structure
+    fields:
+      link:
+        type: link
+        settings:
+          popup:
+            width: 1/3
+            label: External Link
+            help: Open link in a new tab?
+          text:
+            width: 2/3
+          hash: false
