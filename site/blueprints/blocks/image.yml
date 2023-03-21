@@ -1,24 +1,30 @@
-name: field.blocks.gallery.name
-icon: dashboard
-preview: gallery
+name: field.blocks.image.name
+icon: image
+preview: image
 fields:
-  images:
-    label: field.blocks.gallery.images.label
+  image:
+    label: field.blocks.image.name
     type: files
     query: model.images
-    multiple: true
-    layout: cards
-    size: tiny
-    empty: field.blocks.gallery.images.empty
+    multiple: false
+    image:
+      back: black
     uploads:
       template: blocks/image
-    image:
-      ratio: 1/1
+      parent: site
+  alt:
+    label: field.blocks.image.alt
+    type: text
+    icon: title
   caption:
     label: field.blocks.image.caption
     type: writer
     icon: text
     inline: true
+  link:
+    label: field.blocks.image.link
+    type: text
+    icon: url
   ratio:
     label: field.blocks.image.ratio
     type: select

@@ -10,10 +10,10 @@ fieldsets:
             fieldsets:
               - heading
               - text
-              - gallery
+              - image
       - heading
       - text
-      - gallery
       - form
       - highlight
       - linklist
+      - image
