@@ -10,7 +10,11 @@ $ratio   = $block->ratio()->or('auto');
       
       if($crop && $ratio && $ratio != 'auto') {
         $n_ratio = explode( '/', $ratio);
-        $factor = 1000;
+        if($n_ratio[0] == 1) {
+          $factor = 1000;
+        } else {
+          $factor = 500;
+        }
         $c_image = $image->crop($n_ratio[0] * $factor, $n_ratio[1] * $factor);
       } else { $c_image = $image; }
       
