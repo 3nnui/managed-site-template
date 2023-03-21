@@ -2,16 +2,8 @@ Title: Home
 
 ----
 
-Content: [{"content":{"mailview":null,"formfields":"[{\"content\":{\"label\":\"Name\",\"slug\":\"name\",\"autofill\":\"name\",\"required\":\"true\",\"required_fail\":\"\",\"inputtype\":\"text\",\"placeholder\":\"\",\"default\":\"\",\"validate\":[]},\"id\":\"6cf9a833-2a0c-463b-8ec2-111bcbf8b875\",\"isHidden\":false,\"type\":\"formfields_01_input\"},{\"content\":{\"label\":\"Email\",\"slug\":\"email\",\"autofill\":\"email\",\"required\":\"true\",\"required_fail\":\"\",\"inputtype\":\"email\",\"placeholder\":\"\",\"default\":\"\",\"validate\":[{\"validate\":\"email\",\"match\":\"\",\"minlength\":null,\"maxlength\":null,\"min\":null,\"max\":null,\"msg\":\"\"}]},\"id\":\"05479bab-9dda-4c3b-916f-3cddb96cea7f\",\"isHidden\":false,\"type\":\"formfields_01_input\"}]","name":"Formular","enable_notify":"false","notify_email":"","notify_subject":"","notify_body":"","enable_confirm":"false","confirm_email":"","confirm_subject":"","confirm_body":"","redirect":"false","success_message":"","success_url":[]},"id":"aaf7f7da-be04-4b2f-b402-8e25829b73bc","isHidden":false,"type":"form"}]
+Layout: [{"content":{"level":"h2","text":"Template"},"id":"e1969eaa-6204-43c1-95ee-3aacfce87e34","isHidden":false,"type":"heading"},{"content":{"text":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consequat aliquet nulla vel elementum. Donec ut eleifend neque, sed egestas lacus. Curabitur posuere velit lectus, suscipit ullamcorper sapien suscipit at. Fusce iaculis feugiat eros eget varius. Nam dignissim ligula bibendum laoreet rhoncus. Mauris vitae scelerisque dui. Duis eget posuere metus. Phasellus pellentesque, mi in ullamcorper elementum, arcu nibh ultricies ipsum, in gravida nulla neque volutpat eros. Aliquam placerat dui sit amet magna fringilla ultricies. Duis feugiat erat nisi, eu aliquam neque consequat suscipit. Suspendisse nec accumsan ante, at bibendum purus. Proin ultricies sed nulla et scelerisque. Nunc aliquam, arcu eu faucibus efficitur, lorem turpis viverra neque, et egestas dui massa congue sapien. Mauris auctor, tellus sit amet consectetur sodales, leo ex pellentesque eros, vel tincidunt augue mi quis odio. Nam tristique condimentum urna. Ut quis scelerisque tellus.<\/p>"},"id":"5ccbcd85-4a77-4a0c-9c90-01606cf8fa89","isHidden":false,"type":"text"},{"content":{"text":"<p>Fusce iaculis feugiat eros eget varius. Nam dignissim ligula bibendum laoreet rhoncus. Mauris vitae scelerisque dui. Duis eget posuere metus. Phasellus pellentesque, mi in ullamcorper elementum, arcu nibh ultricies ipsum, in gravida nulla neque volutpat eros. <\/p>"},"id":"bad25146-c698-4e5b-b94b-6dd2cddd5e7e","isHidden":false,"type":"highlight"},{"content":{"rows":[{"link":{"type":"url","value":"https:\/\/github.com","popup":true}},{"link":{"type":"url","value":"https:\/\/github.com","popup":true}},{"link":{"type":"url","value":"https:\/\/github.com","popup":true}}]},"id":"1f9a462e-aafc-4bb7-a814-c32903f73174","isHidden":false,"type":"linklist"}]
 
 ----
 
-Text: # This is a template!
-
-----
-
-Uuid: lnOLbCWG1cYxdo8l
-
-----
-
-Myfield: type: file
+Uuid: ZxJZNNCl8wmJ8RFn
