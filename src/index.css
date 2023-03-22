@@ -11,6 +11,7 @@
   /* layout */
   section {
     @apply flex;
+    @apply pt-2;
   }
 
   /* fonts */
@@ -32,5 +33,6 @@
 }
 
 .column {
-  width: 50%;
+  @apply flex-1;
+  @apply pr-2;
 }

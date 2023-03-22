@@ -5,5 +5,5 @@ figcaption {
 }
 
 img {
-  width: 100%;
+  @apply w-full;
 }
