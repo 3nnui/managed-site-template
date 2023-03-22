@@ -3,16 +3,6 @@ icon: title
 wysiwyg: true
 preview: heading
 fields:
-  level:
-    label: field.blocks.heading.level
-    type: select
-    empty: false
-    default: "h2"
-    width: 1/6
-    options:
-      - h1
-      - h2
-      - h3
   text:
     label: field.blocks.heading.text
     type: writer

@@ -6,7 +6,7 @@ Pages: - page://ZxJZNNCl8wmJ8RFn
 
 ----
 
-Files: - file://ysjdQTkKZZo83dzn
+Files: - file://A9rztngp5NXuVZkD
 
 ----
 
@@ -14,7 +14,7 @@ Meta-title:
 
 ----
 
-Meta-description: 
+Meta-description: Managed Site Template
 
 ----
 
@@ -22,11 +22,11 @@ Meta-canonical-url:
 
 ----
 
-Meta-author: 
+Meta-author: ennui
 
 ----
 
-Meta-image: 
+Meta-image: - file://A9rztngp5NXuVZkD
 
 ----
 
