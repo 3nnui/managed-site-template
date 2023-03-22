@@ -11,15 +11,11 @@ $src     = null;
 $image = $block->image()->toFile();
 $alt = $alt ?? $image->alt();
 $src = $image->url();
-
-$width = $image->width();
-$height = $image->height();
-
 $webp = $image->picture('w-full object-cover', $alt);
 
 ?>
 <?php if ($src): ?>
-<figure class="relative" alt="<?= $alt ?>" width="" height="">
+<figure class="relative w-full">
   <?php if ($link->isNotEmpty()): ?>
   <a href="<?= Str::esc($link->toUrl()) ?>">
     <?php echo $webp ?>

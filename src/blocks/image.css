@@ -1,5 +1,8 @@
 figcaption {
   text-shadow: black 0px 0px 2px;
   /* color offset-x offset-y blur-radius */
-  color: white;
+}
+
+img {
+  width: 100%;
 }
