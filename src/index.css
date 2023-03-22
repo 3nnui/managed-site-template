@@ -13,15 +13,18 @@
 @layer base {
   h1 {
     @apply text-3xl;
-    @apply mb-1;
+    @apply mb-2;
+    @apply mt-2;
   }
   h2 {
     @apply text-2xl;
-    @apply mb-2 ;
+    @apply mb-2;
     @apply mt-2;
   }
   h3 {
     @apply text-xl;
+    @apply mb-1;
+    @apply mt-1;
   }
   p {
     @apply text-base;
