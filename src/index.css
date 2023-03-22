@@ -2,19 +2,14 @@
 
 @import url("blocks/highlight.css");
 @import url("blocks/image.css");
+@import url("blocks/form.css");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* fonts */
 @layer base {
-  /* layout */
-  section {
-    @apply flex;
-    @apply pt-2;
-  }
-
-  /* fonts */
   h1 {
     @apply text-3xl;
     @apply mb-1;
@@ -34,10 +29,17 @@
   }
 }
 
+/* layout */
+@layer base {
+  section {
+    @apply flex;
+    @apply pt-2;
+  }
+}
+
 .column {
   @apply flex-1;
 }
-
 .column:first-of-type {
   @apply pr-2;
 }
