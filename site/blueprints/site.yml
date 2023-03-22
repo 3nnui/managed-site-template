@@ -7,4 +7,6 @@ tabs:
       fields:
         pages: children
           label: Pages
+        files: 
+          type: files
   seotab: seo

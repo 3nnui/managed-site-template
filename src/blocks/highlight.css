@@ -1,0 +1,8 @@
+.highlight {
+  @apply inline-block;
+  @apply w-full;
+  @apply mb-2;
+
+  color: white;
+  background-color: black;
+}

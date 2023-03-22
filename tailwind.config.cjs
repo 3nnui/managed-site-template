@@ -3,6 +3,7 @@ module.exports = {
   content: [
     "site/snippets/**/*.php",
     "site/templates/**/*.php",
+    "site/plugins/custom/**/*.php",
   ],
   theme: {
     fontSize: {
@@ -13,5 +14,7 @@ module.exports = {
       '3xl': '1.758rem',
     }
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }

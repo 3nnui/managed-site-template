@@ -1,26 +1,30 @@
 /* Shared CSS for all pages */
 
+@import url("blocks/highlight.css");
+@import url("blocks/image.css");
+@import url("blocks/form.css");
+@import url("blocks/columns.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* fonts */
 @layer base {
-  /* layout */
-  main {
-    @apply container;
-    @apply md:mx-auto;
-    @apply px-2;
-  }
-
-  /* fonts */
   h1 {
     @apply text-3xl;
+    @apply mb-2;
+    @apply mt-2;
   }
   h2 {
     @apply text-2xl;
+    @apply mb-2;
+    @apply mt-2;
   }
   h3 {
     @apply text-xl;
+    @apply mb-1;
+    @apply mt-1;
   }
   p {
     @apply text-base;
