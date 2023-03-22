@@ -9,10 +9,8 @@
 
 @layer base {
   /* layout */
-  main {
-    @apply container;
-    @apply md:mx-auto;
-    @apply px-2;
+  section {
+    @apply flex;
   }
 
   /* fonts */
@@ -31,4 +29,8 @@
   h5 {
     @apply text-sm;
   }
+}
+
+.column {
+  width: 50%;
 }
