@@ -1,0 +1,13 @@
+@layer base {
+  section {
+    @apply flex;
+    @apply mb-2;
+  }
+}
+
+.column {
+  @apply flex-1;
+}
+.column:first-of-type {
+  @apply pr-2;
+}

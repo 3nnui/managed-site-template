@@ -1,3 +1,7 @@
+figure {
+  @apply mb-2 !important;
+}
+
 figcaption {
   text-shadow: black 0px 0px 2px;
   /* color offset-x offset-y blur-radius */

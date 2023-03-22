@@ -25,7 +25,7 @@ $webp = $image->picture('w-full object-cover', $alt);
   <?php endif ?>
 
   <?php if ($caption->isNotEmpty()): ?>
-  <figcaption class="absolute bottom-2 left-2">
+  <figcaption class="absolute bottom-1 left-2">
     <?= $caption ?>
   </figcaption>
   <?php endif ?>
