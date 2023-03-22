@@ -24,6 +24,8 @@ Web stack focussed on accessibility and security without sacrificing the dev wor
 
 ## Goals
 
+*This Project is still in development and as of yet not all of those goals are reached. So this is also like a semi roadmap.*
+
 This Template is designed with the following goals:
 
 Accessibility:
