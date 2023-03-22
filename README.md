@@ -24,25 +24,25 @@ Web stack focussed on accessibility and security without sacrificing the dev wor
 
 ## Goals
 
-*This Project is still in development and as of yet not all of those goals are reached. So this is also like a semi roadmap.*
+*This Project is still in development and as of yet not all of those goals are reached. So this is also like a semi roadmap indicated by the checkmarks.*
 
 This Template is designed with the following goals:
 
 Accessibility:
 
-- easy to develop
-- easy to self-host
-- conform to "WAI-ARIA" Standards
-- small footprint
-- SEO
+- easy to develop ✅
+- easy to self-host ✅
+- conform to "WAI-ARIA" Standards 
+- small footprint ✅
+- SEO ✅
 
 Security:
 
-- Content Security Policy headers
-- functional in JavaScript disabled browsers
-- hardened .htaccess
-- 2fa and strict password guidelines
-- dockerized deployment behind hardened reverse proxy
+- Content Security Policy headers ✅
+- functional in JavaScript disabled browsers ✅
+- hardened .htaccess ❌
+- 2fa and strict password guidelines ❌
+- dockerized deployment behind hardened reverse proxy ❌
 
 ## Installation
 
