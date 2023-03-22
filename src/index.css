@@ -17,9 +17,11 @@
   /* fonts */
   h1 {
     @apply text-3xl;
+    @apply mb-1;
   }
   h2 {
     @apply text-2xl;
+    @apply mb-1;
   }
   h3 {
     @apply text-xl;
@@ -34,5 +36,8 @@
 
 .column {
   @apply flex-1;
+}
+
+.column:first-of-type {
   @apply pr-2;
 }
