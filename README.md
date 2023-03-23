@@ -19,7 +19,7 @@
                    | |                         
                    |_|
 
-Web stack focussed on accessibility and security without sacrificing the dev workflow
+Web stack focussed on accessibility and security without sacrificing any dev workflow
 ```
 
 ## Goals
