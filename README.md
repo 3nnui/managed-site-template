@@ -30,8 +30,8 @@ This Template is designed with the following goals:
 
 Accessibility:
 
-- easy to develop ✅
-- easy to self-host ✅
+- good development workflow ✅
+- easily self-hostable ✅
 - conform to "WAI-ARIA" Standards 
 - small footprint ✅
 - SEO ✅
@@ -91,7 +91,7 @@ Upload the repository to your web server and point your web server to the reposi
 
 ## Acknowledgements
 
- - [getkirby](https://github.com/getkirby)
+ - [getkirby](https://githethub.com/getkirby)
  - [kirby vite multipage kit](https://github.com/arnoson/kirby-vite-multi-page-kit)
  - [tailwindcss](https://github.com/tailwindlabs/tailwindcss)
 
