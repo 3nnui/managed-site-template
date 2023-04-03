@@ -40,6 +40,7 @@ Security:
 
 - Content Security Policy headers ✅
 - functional in JavaScript disabled browsers ✅
+- hardened apache config ✅
 - 2fa and strict password guidelines ❌
 - dockerized deployment behind hardened reverse proxy ❌
 
