@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  web:
+    container_name: managed-site-template
+    build:
+      args:
+        - UID=1000 #dev user uuid
+    restart: always
+    ports:
+    - "1312:80"
+    volumes:
+    - ./:/var/www/html:z
