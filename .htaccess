@@ -1,8 +1,30 @@
-# Kirby .htaccess
-# revision 2020-06-15
+# 3nnui .htaccess 04.2023
+
+# set timeout to 60s
+Timeout 60
+
+# disable server version banner
+ServerTokens Prod
+ServerSignature Off
+
+# disable etag
+FileETag None
 
 # disable directory listing
 Options -Indexes
+
+# disable request tracing
+TraceEnable off
+
+# cookie httponly and secure
+Header edit Set-Cookie ^(.*)$ $1;HttpOnly;Secure
+
+# x-frame sameorigin
+Header always append X-Frame-Options SAMEORIGIN
+
+# xss protection
+Header set X-XSS-Protection "1; mode=block"
+
 
 # rewrite rules
 <IfModule mod_rewrite.c>
@@ -10,6 +32,10 @@ Options -Indexes
 # enable awesome urls. i.e.:
 # http://yourdomain.com/about-us/team
 RewriteEngine on
+
+# disable http1
+RewriteCond %{THE_REQUEST} !HTTP/1.1$
+RewriteRule .* - [F]
 
 # make sure to set the RewriteBase correctly
 # if you are running the site in a subfolder;
