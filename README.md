@@ -76,7 +76,7 @@ npm run preview
 
 ### Docker
 
-This Repo provides a full dockerized production preview based on ubuntu running an apache webserver. It requires a rebuild everytime the apache configuration or the image spec is changed.
+This Repo provides a full dockerized production preview based on ubuntu running an apache webserver. It requires a rebuild everytime the apache configuration or the image spec is changed. The dockerized preview ist hosted on `localhost:1312`.
 
 Build and run the preview container:
 
@@ -90,7 +90,11 @@ Run the container:
 npm run docker:preview
 ```
 
-### Podman
+#### Mailhog
+
+A containerized mailhog is hosted on `localhost:1325`.
+
+#### Podman
 
 Podman is supported. Simply replace docker with podman:
 

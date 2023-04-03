@@ -11,3 +11,11 @@ services:
     - "1312:80"
     volumes:
     - ./:/var/www/html:z
+  mailhog:
+     container_name: mailhog
+     image: mailhog/mailhog:latest
+     restart: always
+     hostname: mailhog
+     ports:
+       - "1025:1025"
+       - "1325:8025"
