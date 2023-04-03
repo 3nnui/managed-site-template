@@ -7,7 +7,11 @@
     "dev": "concurrently \"npm:server\" \"npm:vite\"",
     "server": "php -S localhost:8888 -t public server.php",
     "build": "vite build",
-    "preview": "npm run build && npm run server"
+    "preview": "npm run build && npm run server",
+    "podman:preview": "npm run build && sudo podman-compose -f docker-compose.dev.yml up --force-recreate",
+    "podman:rebuild": "npm run build && sudo podman-compose -f docker-compose.dev.yml up --build --pull --no-cache --force-recreate",
+    "docker:preview": "npm run build && sudo docker-compose -f docker-compose.dev.yml up --force-recreate",
+    "docker:rebuild": "npm run build && sudo docker-compose -f docker-compose.dev.yml up --build --pull --no-cache --force-recreate"
   },
   "author": "arnoson",
   "license": "MIT",
