@@ -13,7 +13,6 @@ fieldsets:
               - image
       - heading
       - text
-      - form
       - highlight
       - linklist
       - image

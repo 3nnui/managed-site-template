@@ -3,7 +3,6 @@
 @import url("blocks/highlight.css");
 @import url("blocks/linklist.css");
 @import url("blocks/image.css");
-@import url("blocks/form.css");
 @import url("blocks/columns.css");
 
 @tailwind base;
