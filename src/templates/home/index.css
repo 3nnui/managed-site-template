@@ -1,1 +1,8 @@
 /* page css */
+
+main {
+  @apply
+    container
+    mx-auto
+    max-w-prose;
+}

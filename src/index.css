@@ -1,6 +1,7 @@
 /* Shared CSS for all pages */
 
 @import url("blocks/highlight.css");
+@import url("blocks/linklist.css");
 @import url("blocks/image.css");
 @import url("blocks/form.css");
 @import url("blocks/columns.css");
@@ -12,24 +13,40 @@
 /* fonts */
 @layer base {
   h1 {
-    @apply text-3xl;
-    @apply mb-2;
-    @apply mt-2;
+    @apply 
+      prose
+      prose-2xl
+      h-9;
+
+
   }
   h2 {
-    @apply text-2xl;
-    @apply mb-2;
-    @apply mt-2;
+    @apply 
+      prose
+      prose-xl
+      mb-1
+      mt-1
+      min-w-max
+      break-keep;
   }
   h3 {
-    @apply text-xl;
-    @apply mb-1;
-    @apply mt-1;
+    @apply 
+      prose
+      prose-lg
+      mb-1
+      mt-1
+      min-w-fit
+      break-keep;
   }
   p {
-    @apply text-base;
+    @apply 
+      prose
+      prose-base
+      prose-a:text-blue-600;
   }
   h5 {
-    @apply text-sm;
+    @apply 
+      prose
+      prose-sm;
   }
 }

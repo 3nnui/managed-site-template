@@ -1,14 +1,14 @@
-<ul class="linklist list-none">
+<ul class="linklist">
   <?php
   $rows = $block->rows()->toStructure();
 
   foreach ($rows as $row): ?>
     <?php if ($link = $row->link()->toValidLink()) : ?>
-      <li class="flex py-2">
-        <a href="<?= $link->href() ?>" target="<?= $link->popup() ?>" class="underline">
+      <li>
+        <a href="<?= $link->href() ?>" target="<?= $link->popup() ?>">
           <?= $link->text() ? : $link->href() ?>
         </a>
-        <p class="ml-2">⟶</p>
+        <p>⟶</p>
       </li>
     <?php else: ?>
       <li>

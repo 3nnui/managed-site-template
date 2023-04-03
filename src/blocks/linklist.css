@@ -1,0 +1,21 @@
+.linklist {
+  @apply list-none;
+}
+
+.linklist li {
+  @apply
+    flex
+    py-2;
+}
+
+.linklist li a {
+  @apply
+    underline
+    text-blue-600;
+}
+
+.linklist li p {
+  @apply
+    ml-2
+    text-blue-600;
+}

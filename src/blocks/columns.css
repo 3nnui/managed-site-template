@@ -1,12 +1,12 @@
-@layer base {
-  section {
-    @apply flex;
-    @apply mb-2;
-  }
+section {
+  @apply flex;
+  @apply mb-2;
+  @apply flex-wrap;
 }
 
 .column {
-  @apply flex-1;
+  @apply w-full;
+  @apply lg:w-1/2;
 }
 .column:first-of-type {
   @apply pr-2;

@@ -1,8 +1,23 @@
 .highlight {
-  @apply inline-block;
-  @apply w-full;
-  @apply mb-2;
+  @apply 
+    p-2
+    flex
+    w-full
+    mb-2
+    bg-black;
+}
 
-  color: white;
-  background-color: black;
+.highlight h1 {
+  @apply
+    pl-6
+    pr-7
+    prose
+    prose-2xl
+    prose-invert;
+}
+
+.highlight p {
+  @apply 
+    prose
+    prose-invert;
 }
