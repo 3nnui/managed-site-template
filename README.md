@@ -81,7 +81,7 @@ This Repo provides a full dockerized production preview based on ubuntu running 
 Build and run the preview container:
 
 ```
-npm run docker:rebuild
+npm run docker:build
 ```
 
 Run the container:
@@ -95,7 +95,7 @@ npm run docker:preview
 Podman is supported. Simply replace docker with podman:
 
 ```
-npm run podman:rebuild
+npm run podman:build
 npm run podman:preview
 ```
 
