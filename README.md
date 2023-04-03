@@ -40,7 +40,6 @@ Security:
 
 - Content Security Policy headers ✅
 - functional in JavaScript disabled browsers ✅
-- hardened .htaccess ❌
 - 2fa and strict password guidelines ❌
 - dockerized deployment behind hardened reverse proxy ❌
 
@@ -73,6 +72,32 @@ Get a local production preview by running:
 ```
 npm run preview
 ```
+
+### Docker
+
+This Repo provides a full dockerized production preview based on ubuntu running an apache webserver. It requires a rebuild everytime the apache configuration or the image spec is changed.
+
+Build and run the preview container:
+
+```
+npm run docker:rebuild
+```
+
+Run the container:
+
+```
+npm run docker:preview
+```
+
+### Podman
+
+Podman is supported. Simply replace docker with podman:
+
+```
+npm run podman:rebuild
+npm run podman:preview
+```
+
 
 ## Production
 
